@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Meeting minutes webpage">
+    <link rel="icon" href="favicon.ico">
+    <title>CSStress Meeting Minutes</title>
+  </head>
+  <body>
+    <header>
+      <h1>CSStress Meeting Minutes</h1>
+      <h2>Brainstorming Session</h2>
+      <h3>April 13, 2026</h3>
+
+      <nav>
+        <a href="#attendance">Attendance</a><br>
+        <a href="#agenda">Agenda</a><br>
+        <a href="#unfinished">Unfinished Business</a><br>
+        <a href="#new">New Business</a><br>
+        <a href="#comments">Comments</a><br>
+        <a href="#form">Form</a>
+      </nav>
+      <hr>
+    </header>
+
+    <main>
+      <section>
+        <h2>Meeting Overview</h2>
+        <div>
+          <p>This is our <span>official meeting record</span>.</p>
+        </div>
+      </section>
+
+      <section id="attendance">
+        <h2>Attendance</h2>
+        <ul>
+          <li>Wenxin Hu</li>
+          <li>Teammate A</li>
+          <li>Teammate B</li>
+        </ul>
+      </section>
+
+      <section id="agenda">
+        <h2>Agenda</h2>
+        <ol>
+          <li>Review requirements</li>
+          <li>Assign tasks</li>
+          <li>Build the webpage</li>
+        </ol>
+      </section>
+
+      <section id="unfinished">
+        <h2>Unfinished Business</h2>
+        <p>Need to finish media files and validation.</p>
+      </section>
+
+      <section id="new">
+        <h2>New Business</h2>
+        <p>We discussed semantic HTML and GitHub Pages.</p>
+      </section>
+
+      <section id="comments">
+        <h2>Comments</h2>
+        <p>This meeting was <strong>very useful</strong>.</p>
+        <p>HTML looks <b>simple</b> but is also <em>important</em>.</p>
+        <p>Some people thought it was <i>confusing</i> at first.</p>
+      </section>
+
+      <section>
+        <h2>Meeting Media</h2>
+        <img src="diagram.jpg" alt="Meeting diagram" width="300">
+
+        <p>Audio recording:</p>
+        <audio controls>
+          <source src="audio.mp3" type="audio/mpeg">
+        </audio>
+
+        <p>Video recording:</p>
+        <video controls width="300">
+          <source src="video.mp4" type="video/mp4">
+        </video>
+      </section>
+
+      <section>
+        <h2>Extra Notes</h2>
+        <details>
+          <summary>Click to expand</summary>
+          <p>We agreed to validate the page before submission.</p>
+        </details>
+      </section>
+
+      <section id="form">
+        <h2>Feedback Form</h2>
+        <form>
+          <fieldset>
+            <legend>Meeting Feedback</legend>
+
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" list="names"><br><br>
+
+            <datalist id="names">
+              <option value="Wenxin Hu"></option>
+              <option value="Teammate A"></option>
+              <option value="Teammate B"></option>
+            </datalist>
+
+            <label for="date">Date:</label><br>
+            <input type="date" id="date" name="date"><br><br>
+
+            <input type="checkbox" id="html" name="task" value="html">
+            <label for="html">HTML</label><br>
+
+            <input type="checkbox" id="media" name="task" value="media">
+            <label for="media">Media</label><br><br>
+
+            <input type="radio" id="yes" name="helpful" value="yes">
+            <label for="yes">Yes</label><br>
+
+            <input type="radio" id="no" name="helpful" value="no">
+            <label for="no">No</label><br><br>
+
+            <label for="role">Role:</label><br>
+            <select id="role" name="role">
+              <option value="leader">Leader</option>
+              <option value="member">Member</option>
+              <option value="recorder">Recorder</option>
+            </select><br><br>
+
+            <label for="comment">Comments:</label><br>
+            <textarea id="comment" name="comment" rows="4" cols="40"></textarea><br><br>
+
+            <button type="submit">Submit</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <hr>
+      <p>Created for the Intro to HTML Lab</p>
+    </footer>
+  </body>
+</html>
